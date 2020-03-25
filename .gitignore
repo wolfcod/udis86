@@ -43,8 +43,8 @@ udis86-1.*
 # Ignore C++ Builder history folders
 libudis86/__history/
 
-#ignore thumbnails created by windows
-Thumbs.db
+#ignore thumbnails created by windows and .db VS database
+*.db
 #Ignore files built by Visual Studio
 *.user
 *.aps
